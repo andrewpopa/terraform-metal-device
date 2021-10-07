@@ -6,5 +6,4 @@ resource "packet_device" "this" {
   billing_cycle       = var.billing_cycle
   project_id          = var.project_id
   user_data           = var.user_data
-  project_ssh_key_ids = [var.project_ssh_key]
 }

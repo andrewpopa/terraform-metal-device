@@ -39,9 +39,3 @@ variable "user_data" {
   type        = string
   default     = ""
 }
-
-variable "project_ssh_key" {
-  description = "ssh key"
-  type        = string
-  default     = ""
-}

@@ -41,6 +41,7 @@ output "ssh_key_ids" {
 output "root_password" {
   description = "device root password"
   value = packet_device.this.root_password 
+  sensitive   = true
 }
 
 output "state" {

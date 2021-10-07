@@ -13,7 +13,7 @@ variable "plan" {
 variable "facilities" {
   description = "Facilities where the server will be deployed"
   type        = list(any)
-  default     = ["am6"]
+  default     = ["ams1"]
 }
 
 variable "operating_system" {

@@ -6,5 +6,4 @@ resource "packet_device" "this" {
   billing_cycle    = var.billing_cycle
   project_id       = var.project_id
   user_data        = var.user_data
-  tags             = merge(var.common_tags)
 }

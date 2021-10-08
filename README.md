@@ -1,17 +1,17 @@
-# terraform-packet-device
+# terraform-metal-device
 Terraform module for Equinix Metal platform
 
 ## Requirements
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_packet"></a> [packet](#requirement\_packet) | ~> 3.0 |
+| <a name="requirement_metal"></a> [metal](#requirement\_metal) | ~> 3.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_packet"></a> [packet](#provider\_packet) | ~> 3.0 |
+| <a name="provider_metal"></a> [metal](#provider\_metal) | ~> 3.0 |
 
 ## Modules
 
@@ -21,7 +21,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [packet_device.this](https://registry.terraform.io/providers/packethost/packet/latest/docs/resources/device) | resource |
+| [metal_device.this](https://registry.terraform.io/providers/equinix/metal/latest/docs/resources/device) | resource |
 
 ## Inputs
 

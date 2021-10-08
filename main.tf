@@ -1,4 +1,4 @@
-resource "packet_device" "this" {
+resource "metal_device" "this" {
   hostname            = var.hostname
   plan                = var.plan
   facilities          = var.facilities

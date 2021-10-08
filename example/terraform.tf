@@ -1,7 +1,7 @@
 terraform {
   required_providers {
-    packet = {
-      source  = "packethost/packet"
+    metal = {
+      source = "equinix/metal"
       version = "~> 3.0"
     }
   }

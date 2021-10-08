@@ -1,5 +1,5 @@
 module "device" {
-  source = "git::https://github.com/andrewpopa/terraform-packet-device.git"
+  source = "../"
 
   hostname         = "tf-ubuntu"
   plan             = "t1.small.x86"

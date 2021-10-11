@@ -7,5 +7,4 @@ module "device" {
   operating_system = "ubuntu_18_04"
   billing_cycle    = "hourly"
   project_id       = var.project_id
-  user_data        = ""
 }

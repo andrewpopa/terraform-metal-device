@@ -39,3 +39,15 @@ variable "user_data" {
   type        = string
   default     = ""
 }
+
+variable "project_ssh_key_ids" {
+  description = "ssh key ids"
+  type        = list
+  default     = []
+}
+
+variable "ssh_key_ids" {
+  description = "ssh key ids"
+  type        = string
+  default     = ""
+}

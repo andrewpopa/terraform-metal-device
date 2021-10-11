@@ -33,6 +33,8 @@ No modules.
 | <a name="input_operating_system"></a> [operating\_system](#input\_operating\_system) | OS | `string` | `"ubuntu_18_04"` | no |
 | <a name="input_plan"></a> [plan](#input\_plan) | The device plug | `string` | `"t1.small.x86"` | no |
 | <a name="input_project_id"></a> [project\_id](#input\_project\_id) | Project ID | `string` | `""` | no |
+| <a name="input_project_ssh_key_ids"></a> [project\_ssh\_key\_ids](#input\_project\_ssh\_key\_ids) | ssh key ids | `list` | `[]` | no |
+| <a name="input_ssh_key_ids"></a> [ssh\_key\_ids](#input\_ssh\_key\_ids) | ssh key ids | `string` | `""` | no |
 | <a name="input_user_data"></a> [user\_data](#input\_user\_data) | User data | `string` | `""` | no |
 
 ## Outputs

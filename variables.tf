@@ -42,7 +42,7 @@ variable "user_data" {
 
 variable "project_ssh_key_ids" {
   description = "ssh key ids"
-  type        = list
+  type        = list(any)
   default     = []
 }
 

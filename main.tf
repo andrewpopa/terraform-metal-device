@@ -1,4 +1,4 @@
-resource "metal_device" "this" {
+resource "equinix_metal_device" "this" {
   hostname            = var.hostname
   plan                = var.plan
   facilities          = var.facilities

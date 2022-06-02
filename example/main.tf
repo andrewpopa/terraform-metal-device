@@ -1,9 +1,9 @@
 module "device" {
   source = "../"
 
-  hostname         = "tf-ubuntu"
-  plan             = "t1.small.x86"
-  facilities       = ["ams1"]
+  hostname         = "tf-device"
+  plan             = "c3.small.x86"
+  facilities       = ["am6"]
   operating_system = "ubuntu_18_04"
   billing_cycle    = "hourly"
   project_id       = var.project_id

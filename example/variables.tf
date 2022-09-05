@@ -3,3 +3,8 @@ variable "project_id" {
   type        = string
   default     = ""
 }
+
+variable "tags" {
+  type    = string
+  default = ""
+}

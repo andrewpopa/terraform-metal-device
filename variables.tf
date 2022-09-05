@@ -51,3 +51,8 @@ variable "ssh_key_ids" {
   type        = string
   default     = ""
 }
+
+variable "tags" {
+  type    = string
+  default = ""
+}

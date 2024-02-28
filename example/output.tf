@@ -1,4 +1,4 @@
-output "access_private_ipv4" {
+/*output "access_private_ipv4" {
   description = "private ipv4"
   value       = module.device.access_private_ipv4
 }
@@ -47,4 +47,4 @@ output "root_password" {
 output "state" {
   description = "device state"
   value       = module.device.state
-}
+}*/

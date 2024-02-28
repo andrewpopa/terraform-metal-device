@@ -10,10 +10,10 @@ variable "plan" {
   default     = "t1.small.x86"
 }
 
-variable "facilities" {
-  description = "Facilities where the server will be deployed"
-  type        = list(any)
-  default     = ["ams1"]
+variable "metro" {
+  description = "Metro where the server will be deployed"
+  type        = string
+  default     = ""
 }
 
 variable "operating_system" {
